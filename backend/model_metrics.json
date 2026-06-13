@@ -1,0 +1,167 @@
+{
+  "accuracy": 0.994,
+  "precision": 0.9941,
+  "recall": 0.9918,
+  "f1_score": 0.993,
+  "roc_auc": 0.998,
+  "cv_f1_mean": 0.9948,
+  "cv_f1_std": 0.0004,
+  "confusion_matrix": [
+    [
+      20024,
+      165
+    ],
+    [
+      118,
+      26852
+    ]
+  ],
+  "feature_count": 28,
+  "feature_columns": [
+    "URLLength",
+    "DomainLength",
+    "TLDLength",
+    "NoOfSubDomain",
+    "IsHTTPS",
+    "NoOfLettersInURL",
+    "NoOfDegitsInURL",
+    "NoOfEqualsInURL",
+    "NoOfQMarkInURL",
+    "NoOfAmpersandInURL",
+    "NoOfOtherSpecialCharsInURL",
+    "URLEntropy",
+    "DomainEntropy",
+    "PathEntropy",
+    "DigitRatioInURL",
+    "LetterRatioInURL",
+    "NoOfHyphensInURL",
+    "NoOfDotsInURL",
+    "NoOfAtInURL",
+    "NoOfPercentInURL",
+    "IsIPAddress",
+    "HasPunycode",
+    "HasAtSign",
+    "HasDoubleSlashRedirect",
+    "HasHexEncoding",
+    "IsSuspiciousTLD",
+    "SuspiciousKeywordCount",
+    "BrandInSubdomain"
+  ],
+  "feature_importance": [
+    {
+      "feature": "IsHTTPS",
+      "importance": 0.391238
+    },
+    {
+      "feature": "DigitRatioInURL",
+      "importance": 0.089642
+    },
+    {
+      "feature": "NoOfDegitsInURL",
+      "importance": 0.086155
+    },
+    {
+      "feature": "URLLength",
+      "importance": 0.083658
+    },
+    {
+      "feature": "LetterRatioInURL",
+      "importance": 0.052684
+    },
+    {
+      "feature": "PathEntropy",
+      "importance": 0.047723
+    },
+    {
+      "feature": "NoOfLettersInURL",
+      "importance": 0.038103
+    },
+    {
+      "feature": "URLEntropy",
+      "importance": 0.036271
+    },
+    {
+      "feature": "NoOfSubDomain",
+      "importance": 0.033657
+    },
+    {
+      "feature": "DomainLength",
+      "importance": 0.032449
+    },
+    {
+      "feature": "NoOfDotsInURL",
+      "importance": 0.026557
+    },
+    {
+      "feature": "DomainEntropy",
+      "importance": 0.026203
+    },
+    {
+      "feature": "NoOfHyphensInURL",
+      "importance": 0.022748
+    },
+    {
+      "feature": "IsSuspiciousTLD",
+      "importance": 0.017401
+    },
+    {
+      "feature": "TLDLength",
+      "importance": 0.008795
+    },
+    {
+      "feature": "SuspiciousKeywordCount",
+      "importance": 0.005402
+    },
+    {
+      "feature": "NoOfQMarkInURL",
+      "importance": 0.000545
+    },
+    {
+      "feature": "BrandInSubdomain",
+      "importance": 0.000542
+    },
+    {
+      "feature": "HasAtSign",
+      "importance": 0.000123
+    },
+    {
+      "feature": "NoOfEqualsInURL",
+      "importance": 5.2e-05
+    },
+    {
+      "feature": "NoOfAtInURL",
+      "importance": 4e-05
+    },
+    {
+      "feature": "HasPunycode",
+      "importance": 6e-06
+    },
+    {
+      "feature": "HasDoubleSlashRedirect",
+      "importance": 2e-06
+    },
+    {
+      "feature": "NoOfAmpersandInURL",
+      "importance": 2e-06
+    },
+    {
+      "feature": "IsIPAddress",
+      "importance": 1e-06
+    },
+    {
+      "feature": "NoOfOtherSpecialCharsInURL",
+      "importance": 1e-06
+    },
+    {
+      "feature": "NoOfPercentInURL",
+      "importance": 0.0
+    },
+    {
+      "feature": "HasHexEncoding",
+      "importance": 0.0
+    }
+  ],
+  "train_samples": 188636,
+  "test_samples": 47159,
+  "n_estimators": 300
+}
