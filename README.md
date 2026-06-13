@@ -326,8 +326,6 @@ if is_https and no_of_subdomain == 0 and not is_ip_address(domain):
 
 ## API Documentation
 
-Base URL: `https://urlsheild-api.onrender.com`
-
 ### `POST /api/v1/predict`
 
 Analyze a URL and return a threat verdict with risk score, explanation, and extracted features.
