@@ -5,7 +5,7 @@
  */
 
 // -- Config --
-const API_BASE    = "https://urlsheild-api.onrender.com";
+const API_BASE    = window.location.origin;
 const PREDICT_URL = `${API_BASE}/api/v1/predict`;
 const HISTORY_KEY   = "threatlens_history";
 const HISTORY_LIMIT = 10;

@@ -25,6 +25,8 @@ COPY backend/ ./backend/
 # Copy dataset (needed at startup for median computation if using old model)
 COPY dataset/ ./dataset/
 
+COPY frontend/ ./frontend/
+
 # Set working directory to backend so relative paths resolve
 WORKDIR /app/backend
 

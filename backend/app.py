@@ -11,6 +11,7 @@ import joblib
 import pandas as pd
 from flask import Flask, jsonify
 from flask_cors import CORS
+from flask import send_from_directory
 from flask_limiter import Limiter
 from flask_limiter.util import get_remote_address
 
@@ -201,12 +202,22 @@ def _run_prediction(url: str) -> dict:
 
 @app.route("/")
 def home():
+    frontend_dir = os.path.join(os.path.dirname(__file__), "..", "frontend")
+    frontend_dir = os.path.abspath(frontend_dir)
+    if os.path.exists(os.path.join(frontend_dir, "index.html")):
+        return send_from_directory(frontend_dir, "index.html")
     return jsonify({
         "service": "URLShield API",
         "version": Config.API_VERSION,
         "status": "running",
         "model_loaded": MODEL_LOADED,
     })
+
+
+@app.route("/<path:filename>")
+def frontend_static(filename):
+    frontend_dir = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", "frontend"))
+    return send_from_directory(frontend_dir, filename)
 
 
 @app.route("/health")
