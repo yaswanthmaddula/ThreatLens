@@ -6,7 +6,7 @@
 
 **Detect malicious URLs in milliseconds using machine learning — no black boxes, no guesswork.**
 
- [Live Demo](#https://threatlens-ai-powered-url-security.onrender.com) ·[API Docs](#api-documentation) · [ML Pipeline](#machine-learning-pipeline) · [Architecture](#system-architecture)
+ [Live Demo](https://threatlens-ai-powered-url-security.onrender.com) ·[API Docs](#api-documentation) · [ML Pipeline](#machine-learning-pipeline) · [Architecture](#system-architecture)
 
 </div>
 
