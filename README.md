@@ -52,16 +52,12 @@ ThreatLens analyzes the **structure of a URL itself** — no network calls, no b
 
 ## Screenshots
 
-| Page | Preview |
-|---|---|
-| Landing Page — Hero + Metrics | `docs/screenshots/landing.png` |
+| Landing Page — Hero + Metrics | <img width="1921" height="4020" alt="ThreatLens-—-AI-Powered-URL-Threat-Detection" src="https://github.com/user-attachments/assets/eedadeb7-f86b-40c3-898a-6a6b74f59c23" />|
 | URL Scanner Module | `docs/screenshots/scanner.png` |
-| Threat Analysis Results | `docs/screenshots/results.png` |
-| Feature Analysis Grid | `docs/screenshots/features.png` |
-| Scan History | `docs/screenshots/history.png` |
-| AI Explanation Panel | `docs/screenshots/explanation.png` |
-
-> Screenshots can be added to `docs/screenshots/` and the table above will render them automatically on GitHub.
+| Threat Analysis Results for safe link | <img width="1918" height="1772" alt="ThreatLens-—-AI-Powered-URL-Threat-Detection (1)" src="https://github.com/user-attachments/assets/298ceed5-986b-4dc1-b70c-f0bc3183ed2e" />
+ |
+| Threat Analysis Results for risky link | <img width="1917" height="1780" alt="ThreatLens-—-AI-Powered-URL-Threat-Detection (2)" src="https://github.com/user-attachments/assets/2c7e832d-85d6-4a52-8f57-fc12d6fbf48f" />
+ |
 
 ---
 
